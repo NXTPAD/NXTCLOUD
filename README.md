@@ -1,10 +1,13 @@
 # NXT Cloud website
 
-Static site for NXT Cloud (NXTPad, NXT DEX, NXT Finance). Plain HTML, CSS, and JavaScript, so there is no build step.
+Static site for NXT Cloud (NXTPad, NXT DEX, NXT AI and the future NXT Finance page). Plain HTML, CSS, and JavaScript, so there is no build step.
 
 ## Files
 
-- `index.html` — homepage
+- `index.html` — NXT CLOUD home
+- `pad.html` — NXT PAD
+- `dex.html` — NXT DEX
+- `ai.html` — NXT AI
 - `whitepaper.html` — white paper
 - `assets/css/style.css` — all styling (colors and fonts are variables at the top)
 - `assets/js/main.js` — mobile menu and white paper contents highlighting
