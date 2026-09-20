@@ -1,34 +1,201 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#020306"><meta name="description" content="NXT CLOUD — the NXT ecosystem workspace.">
-<title>NXT CLOUD</title><link rel="stylesheet" href="./nxt-v2.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NXT Cloud | Launch, trade, and grow across chains</title>
+  <meta name="description" content="NXT Cloud is a multi-chain ecosystem for creators, traders, and communities. NXTPad is nearing completion, NXT DEX is in development, and NXT Finance is planned.">
+  <meta name="theme-color" content="#020409">
+  <meta property="og:title" content="NXT Cloud">
+  <meta property="og:description" content="Launch, trade, and grow across chains. NXTPad is nearing completion.">
+  <meta property="og:type" content="website">
+  <!-- After you have your domain, add: <meta property="og:image" content="https://YOUR-DOMAIN/assets/img/og.png"> -->
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/img/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<header class="top">
-  <a class="brand" href="./"><img src="https://raw.githubusercontent.com/NXTPAD/NXTPAD/main/assets/img/ChatGPT%20Image%20Sep%2019%2C%202026%2C%2003_49_14%20PM.png" alt="NXT"><span>NXT <b>CLOUD</b></span></a>
-  <nav class="ecosystem"><a class="active" href="./">CLOUD</a><a href="https://nxtpad.nxtpadsupport.workers.dev/">PAD</a><a href="https://github.com/NXTPAD/NXTDEX">DEX</a><a href="https://github.com/NXTPAD/NXTAI">AI</a></nav>
-</header>
-<main>
-<section class="hero">
-  <div class="eyebrow">NXT ECOSYSTEM</div>
-  <h1>Your files.<br><span>One NXT workspace.</span></h1>
-  <p>NXT CLOUD is the shared workspace layer for the NXT ecosystem — designed to feel like home across every NXT product.</p>
-  <div class="actions"><a class="primary" href="#workspace">Open workspace</a><a class="secondary" href="https://github.com/NXTPAD/NXTCLOUD">View on GitHub</a></div>
-</section>
-<section id="workspace" class="workspace">
-  <div class="section-head"><div><div class="eyebrow">WORKSPACE</div><h2>NXT CLOUD</h2></div><span class="status">● Prototype</span></div>
-  <div class="grid">
-    <a class="card" href="#files"><span class="icon">◫</span><strong>My files</strong><p>Organize your NXT workspace and keep your files in one place.</p><span class="arrow">→</span></a>
-    <a class="card" href="https://nxtpad.nxtpadsupport.workers.dev/"><span class="icon">△</span><strong>NXT PAD</strong><p>Launch and manage tokens across the NXT testnet ecosystem.</p><span class="arrow">→</span></a>
-    <a class="card" href="https://github.com/NXTPAD/NXTDEX"><span class="icon">◇</span><strong>NXT DEX</strong><p>Swap, explore markets, and follow the NXT DEX build.</p><span class="arrow">→</span></a>
-    <a class="card" href="https://github.com/NXTPAD/NXTAI"><span class="icon">✦</span><strong>NXT AI</strong><p>Research, create, code, and work with the NXT AI workspace.</p><span class="arrow">→</span></a>
-  </div>
-</section>
-<section id="files" class="file-panel">
-  <div class="empty"><div class="empty-logo"><img src="https://raw.githubusercontent.com/NXTPAD/NXTPAD/main/assets/img/ChatGPT%20Image%20Sep%2019%2C%202026%2C%2003_49_14%20PM.png" alt=""></div><h2>Your workspace is ready</h2><p>Connect the NXT CLOUD storage backend here without changing the visual system.</p><a class="secondary" href="https://github.com/NXTPAD/NXTCLOUD">Open repository</a></div>
-</section>
-</main>
-<footer><span>© NXT</span><span>NXT CLOUD · NXT PAD · NXT DEX · NXT AI</span></footer>
-</body></html>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="NXT Cloud home">
+        <img src="assets/img/logo.png" alt="" width="46" height="46">
+        <span>NXT CLOUD</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="index.html#nxtpad">NXTPad</a>
+        <a href="index.html#nxt-dex">NXT DEX</a>
+        <a href="index.html#nxt-finance">NXT Finance</a>
+        <a href="index.html#roadmap">Roadmap</a>
+        <a href="whitepaper.html">White paper</a>
+        <a class="btn btn-primary btn-sm" href="https://nxtpad.nxtpadsupport.workers.dev/launch" target="_blank" rel="noopener noreferrer">Launch NXTPad</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="clouds" aria-hidden="true">
+        <span class="cloud c1"></span><span class="cloud c2"></span><span class="cloud c3"></span><span class="cloud c4"></span>
+      </div>
+      <div class="wrap hero-grid">
+        <div>
+          <h1>Launch, trade, and grow in one cloud.</h1>
+          <p class="lede">NXT Cloud is a multi-chain ecosystem for creators, traders, and communities. Three products, one connected experience.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://nxtpad.nxtpadsupport.workers.dev/launch" target="_blank" rel="noopener noreferrer">
+              Launch NXTPad
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="whitepaper.html">Read the white paper</a>
+          </div>
+          <p class="hero-note"><i aria-hidden="true"></i>NXTPad is nearing completion. NXT DEX is in development.</p>
+        </div>
+        <div class="scene">
+          <div class="glow" aria-hidden="true"></div>
+          <svg class="orbits" viewBox="0 0 400 400" fill="none" aria-hidden="true">
+            <ellipse cx="200" cy="200" rx="192" ry="70" stroke="#89cff0" stroke-opacity="0.35" stroke-width="1" transform="rotate(-18 200 200)"/>
+            <ellipse cx="200" cy="200" rx="170" ry="52" stroke="#89cff0" stroke-opacity="0.22" stroke-width="1" transform="rotate(24 200 200)"/>
+            <circle cx="30" cy="150" r="3.5" fill="#dcf1fc"/>
+            <circle cx="372" cy="238" r="2.5" fill="#89cff0"/>
+          </svg>
+          <img class="logo" src="assets/img/logo.png" alt="NXT Cloud logo: a glowing blue cloud with the letter N inside" width="720" height="720">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ecosystem">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Three products, built to work together</h2>
+          <p>Start with the launchpad. Trading and finance follow, each one labeled by where it really stands today.</p>
+        </div>
+
+        <div class="products">
+          <article class="card card--main" id="nxtpad">
+            <span class="pill pill--soon">Nearing completion</span>
+            <h3>NXTPad</h3>
+            <span class="tag">The multi-chain launchpad</span>
+            <p class="body">NXTPad is the first product in NXT Cloud. It gives new tokens, projects, and communities a place to launch without being tied to a single network.</p>
+            <ul class="checks">
+              <li>Choose the network your project launches on</li>
+              <li>One place for creators and their communities</li>
+              <li>Part of the connected NXT Cloud ecosystem</li>
+            </ul>
+            <a class="btn btn-primary" href="https://nxtpad.nxtpadsupport.workers.dev/launch" target="_blank" rel="noopener noreferrer">
+              Launch NXTPad
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+          </article>
+
+          <article class="card card--dev" id="nxt-dex">
+            <span class="pill pill--dev">In development</span>
+            <h3>NXT DEX</h3>
+            <span class="tag">Trade and swap</span>
+            <p class="body">A decentralized exchange built for speed, security, and low fees, with cross-chain capabilities on the horizon.</p>
+            <a class="more" href="whitepaper.html#nxt-dex">Read the plan
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+          </article>
+
+          <article class="card card--plan" id="nxt-finance">
+            <span class="pill pill--plan">Planned</span>
+            <h3>NXT Finance</h3>
+            <span class="tag">Advanced DeFi tools</span>
+            <p class="body">Our long-term vision: lending, staking, yield farming, and more. The scope is outlined in the white paper.</p>
+            <a class="more" href="whitepaper.html#nxt-finance">Read the vision
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section roadmap" id="roadmap">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>What ships, and in what order</h2>
+          <p>We build one product at a time and tell you honestly where each one stands.</p>
+        </div>
+        <div class="timeline">
+          <div class="stage stage--now">
+            <span class="when">Now</span>
+            <h3>NXTPad</h3>
+            <p>The multi-chain launchpad is nearing completion and is the first product to go live.</p>
+          </div>
+          <div class="stage stage--next">
+            <span class="when">Next</span>
+            <h3>NXT DEX</h3>
+            <p>The exchange is in development, with a focus on speed, security, and low fees.</p>
+          </div>
+          <div class="stage stage--later">
+            <span class="when">Later</span>
+            <h3>NXT Finance</h3>
+            <p>Lending, staking, and yield tools are part of the long-term plan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap">
+        <div class="band-card">
+          <div>
+            <h2>Read the NXT Cloud white paper</h2>
+            <p>The vision, the three products, the principles behind them, and the risks, all in one place.</p>
+            <a class="btn btn-primary" href="whitepaper.html">Open the white paper</a>
+          </div>
+          <ol class="toc-preview" aria-label="White paper contents">
+            <li>Abstract</li>
+            <li>Vision</li>
+            <li>Ecosystem overview</li>
+            <li>NXTPad</li>
+            <li>NXT DEX</li>
+            <li>NXT Finance</li>
+            <li>Principles</li>
+            <li>Roadmap</li>
+            <li>Risks and disclaimer</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" aria-label="NXT Cloud home">
+            <img src="assets/img/logo.png" alt="" width="46" height="46">
+            <span>NXT CLOUD</span>
+          </a>
+          <p>Launch, trade, and grow across chains.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="index.html#nxtpad">NXTPad</a>
+          <a href="index.html#nxt-dex">NXT DEX</a>
+          <a href="index.html#nxt-finance">NXT Finance</a>
+          <a href="index.html#roadmap">Roadmap</a>
+          <a href="whitepaper.html">White paper</a>
+          <!-- Add your community links here when ready, for example:
+          <a href="https://x.com/YOUR-HANDLE" target="_blank" rel="noopener noreferrer">X</a>
+          <a href="https://t.me/YOUR-GROUP" target="_blank" rel="noopener noreferrer">Telegram</a>
+          <a href="https://discord.gg/YOUR-INVITE" target="_blank" rel="noopener noreferrer">Discord</a>
+          -->
+        </nav>
+      </div>
+      <p class="legal">&copy; <span data-year>2026</span> NXT Cloud. For information only. Nothing on this site is financial, legal, or investment advice. Digital assets are volatile and carry risk.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
